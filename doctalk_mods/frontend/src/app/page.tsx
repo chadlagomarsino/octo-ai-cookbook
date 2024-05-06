@@ -5,27 +5,25 @@ export default function Home() {
     <main className="container flex-height">
       <div className="hero">
         <h1>
-          Create your own
-          <span style={{ display: "block" }}>RAG chat application</span>
+          Conquer new heights with Switchback's
+          <span style={{ display: "block" }}>RAG-based chat application</span>
         </h1>
       </div>
       <GeneratedImage />
       <div>
         <p className="credit">
-          DocTalk is a RAG chat app built using Python + NextJS that can search,
-          summarize, and answer questions from a set of docs. This demo is
-          utilizing documentation from{" "}
+          Switchback's RAG chat app is a trailblazing solution crafted with Python + NextJS, capable of exploring, summarizing, and answering queries from various documents. This demo harnesses insights from{" "}
           <a href="https://octo.ai/?utm_source=doctalk" target="_blank">
             OctoAI
           </a>{" "}
           and{" "}
           <a href="https://www.pinecone.io/" target="_blank">
-            Pinecone.
-          </a>
+            Pinecone
+          </a>{" "}
+          documentation.
         </p>
         <p className="disclaimer">
-          Please evaluate model response quality independently before using
-          these for production use cases.
+          Embark on this journey wisely; evaluate model responses independently to ensure their readiness for real-world scenarios.
         </p>
       </div>
     </main>
