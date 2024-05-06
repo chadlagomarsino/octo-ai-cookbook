@@ -43,7 +43,7 @@
 }
 
 html {
-  @apply bg-gradient-green-gold text-black-600 dark:bg-gradient-dark dark:text-gray-50;
+  @apply bg-gradient-light text-black-600 dark:bg-gradient-dark dark:text-gray-50;
 }
 
 html,
@@ -70,7 +70,7 @@ main.container {
 }
 
 button {
-  @apply mt-2 block w-auto rounded bg-gradient-to-r from-yellow-400 to-yellow-500 px-4  py-9px shadow-light hover:bg-gradient-to-l focus-visible:bg-gradient-to-l dark:bg-gradient-teal dark:from-blue-500 dark:to-blue-500 dark:text-black-900 dark:shadow-dark dark:hover:bg-gradient-to-r sm:mt-0;
+  @apply mt-2 block w-auto rounded bg-gradient-orange from-orange to-orange px-4  py-9px shadow-light hover:bg-gradient-to-r focus-visible:bg-gradient-to-r dark:bg-gradient-teal dark:from-blue-500 dark:to-blue-500 dark:text-black-900 dark:shadow-dark dark:hover:bg-gradient-to-r sm:mt-0;
 }
 
 a {
@@ -85,7 +85,7 @@ input {
 .disclaimer {
   @apply text-center mt-3 text-gray-600 dark:text-gray-400;
   a {
-    @apply text-green-500;
+    @apply text-blue-500;
   }
 }
 
